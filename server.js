@@ -21,7 +21,7 @@ app.get('/', (req, res) => {
             </style>
         </head>
         <body>
-            <h1>Welcome to Your Sample Node.js Web App! - Shrikant</h1>
+            <h1>Welcome to Your Sample Node.js Web App!</h1>
             <p>This page is served dynamically by an Express.js server.</p>
             <a class="btn" href="/api/info">View API Endpoint</a>
         </body>
