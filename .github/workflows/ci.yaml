@@ -28,6 +28,6 @@ jobs:
           push: true
           # Tags the image with the specific GitHub commit SHA for traceablity
           tags: |
-            ${{ secrets.JFROG_URL }}/spp15-shrikant/container-practice:latest
-            ${{ secrets.JFROG_URL }}/spp15-shrikant/container-practice:${{ github.sha }}
+            ${{ secrets.JFROG_URL }}/shrikant/container-practice:latest
+            ${{ secrets.JFROG_URL }}/shrikant/container-practice:${{ github.sha }}
 
